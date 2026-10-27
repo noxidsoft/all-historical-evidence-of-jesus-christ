@@ -15,7 +15,7 @@ from pathlib import Path
 COLLECTIONS = {
     "dossier": ("The dossier", "The research dossier itself, converted from the PDF: every catalogue, prophecy ledger, and source register."),
     "scripture": ("Scripture", "The New Testament in the public-domain World English Bible, one file per book."),
-    "gospels": ("Gospels outside the canon", "Gnostic, infancy, passion, and sayings gospels, plus the Gospel of Nicodemus and Tatian's Diatessaron."),
+    "gospels": ("Extracanonical gospels", "Peter, Egerton, the Infancy Gospel of James, Q, and P.Oxy. 5575, plus the Gospel of Nicodemus and Tatian's Diatessaron."),
     "fathers": ("Church Fathers", "Ignatius, Clement, Papias, Justin, Irenaeus, Eusebius, Origen, and the Didache, in 19th-century public-domain translations."),
     "witnesses": ("Ancient witnesses", "Non-Christian testimony: Josephus, Tacitus, Suetonius, Pliny, Lucian, the Talmud, Mara bar Serapion, Thallus and Phlegon."),
     "legal": ("Legal and administrative documents", "Roman rescripts, edicts, inscriptions, and official correspondence that mention Christians or Jesus."),

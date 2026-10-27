@@ -135,7 +135,7 @@ function renderHome() {
   const recent = [...docs].sort((a, b) => (b.fetched || "").localeCompare(a.fetched || "")).slice(0, 10);
   main.innerHTML = `<div class="main-inner">
     <h1 class="page-title">Jesus Christ — evidence archive</h1>
-    <p class="page-lede">Every source cited by <em>A Chronological Research Dossier</em>, gathered as collections: scripture, gospels inside and outside the canon, the church fathers, non-Christian witnesses, Roman legal documents, archaeology, and the modern scholarship the dossier relies on. ${docs.length} documents, ${references.length} numbered references.</p>
+    <p class="page-lede">Every source cited by <em>A Chronological Research Dossier</em>, gathered as collections: scripture, extracanonical gospels, the church fathers, non-Christian witnesses, Roman legal documents, archaeology, and the modern scholarship the dossier relies on. ${docs.length} documents, ${references.length} numbered references.</p>
     ${lastDoc ? `<div class="continue"><span class="muted">Continue reading</span> <a href="#/doc/${lastDoc.id}" data-link>${esc(lastDoc.title)}</a> <button class="icon-btn" type="button" data-forget aria-label="Forget reading position">✕</button></div>` : ""}
     <h2 class="section">Collections</h2>
     <ul class="coll-list">${collections.map((c) => `<li>
@@ -228,10 +228,10 @@ function renderNotFound(id) {
   const raw = known
     ? `https://github.com/noxidsoft/all-historical-evidence-of-jesus-christ/blob/main/collections/${esc(known.path)}`
     : "https://github.com/noxidsoft/all-historical-evidence-of-jesus-christ/tree/main/collections";
-  main.innerHTML = `<div class="main-inner"><h1 class="page-title">This document could not be loaded</h1>
-    <p class="page-lede"><code>${esc(id)}</code> is${known ? "" : " not"} in the catalog, but its rendered page
+  main.innerHTML = `<div class="main-inner"><h1 class="page-title">${known ? "This document could not be loaded" : "This document is not in the archive"}</h1>
+    ${known ? `<p class="page-lede"><code>${esc(id)}</code> is in the catalog, but its rendered page
       did not arrive. The Markdown source is always available:
-      <a href="${raw}" target="_blank" rel="noopener" data-ext>open it on GitHub</a>.</p>
+      <a href="${raw}" target="_blank" rel="noopener" data-ext>open it on GitHub</a>.</p>` : `<p class="page-lede"><code>${esc(id)}</code> was removed or never existed.</p>`}
     <p class="page-lede">Other ways in: <a href="#/" data-link>index</a> ·
       <button class="icon-btn" type="button" onclick="document.getElementById('sources-btn').click()">all sources</button> ·
       press <kbd>/</kbd> to search.</p></div>`;
