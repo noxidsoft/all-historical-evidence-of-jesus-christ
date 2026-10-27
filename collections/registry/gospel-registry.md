@@ -51,38 +51,33 @@ All four are **Canonical (universal)**: Catholic, Eastern Orthodox, Oriental Ort
 
 | Gospel | Composed | Witnesses | Ancient verdict | Status today | Text here |
 |---|---|---|---|---|---|
-| **Gospel of Thomas** | c. 50–140 (disputed) | Greek P.Oxy. 1, 654, 655 (c. 200–250); complete Coptic text in Nag Hammadi Codex II,2 (c. 350) | Hippolytus quotes it. Orig. rejects. Eus. lists it among heretical works. Cyril of Jerusalem attributes it to Manichaeans. Niceph. apocrypha | **Rejected** | [gospel-of-thomas.md](../gospels/gospel-of-thomas.md) (Mattison); [GG 01](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/01-Gospel-of-Thomas.pdf) (Lambdin) |
+| **Gospel of Thomas** | c. 50–140 (disputed) | Greek P.Oxy. 1, 654, 655 (c. 200–250); complete Coptic text in Nag Hammadi Codex II,2 (c. 350) | Hippolytus quotes it. Orig. rejects. Eus. lists it among heretical works. Cyril of Jerusalem attributes it to Manichaeans. Niceph. apocrypha | **Rejected** | — |
 | **Q** (sayings source) | c. 40–70 (if it existed) | No manuscript. Reconstructed from the non-Markan material shared by Matthew and Luke | Unknown in antiquity | **Hypothetical**: a modern scholarly reconstruction | [q-sayings-source.md](../gospels/q-sayings-source.md) |
 | **Sayings of Jesus (P.Oxy. 5575)** | Copy dated c. 150–200 | A single Greek papyrus leaf, published in 2023 (*Oxyrhynchus Papyri* 87) | Unknown in antiquity. Its sayings parallel Matthew, Luke, and Thomas | **Non-canonical (unlisted)** | [sayings-of-jesus-p-oxy-5575.md](../gospels/sayings-of-jesus-p-oxy-5575.md) |
 
-## 4. Gnostic and revelation gospels (the "Gnostic Bible")
+## 4. Gnostic and revelation gospels
 
 These texts present Jesus revealing secret knowledge (*gnosis*), usually after the resurrection. Most come from the Nag Hammadi codices (found 1945), the Berlin Codex (BG 8502), the Askew and Bruce codices, or Codex Tchacos.
 
-**Our Gnostic Bible.** The reference editions are the eleven PDFs in [0xSero/gnostic-gospels](https://github.com/0xSero/gnostic-gospels), cited below as **GG 00–11**. That repo's `MANIFEST.json` records each PDF's translator, source URL, and SHA-256. Nine of its translations are under copyright (Robinson's *Nag Hammadi Library* translators), so they are linked here rather than copied. Only Mattison's Mary and Judas are public domain. GG 07–09 are not gospels; they are listed at the end of this section because they belong to that set.
-
 | Gospel | Composed | Witnesses | Ancient verdict | Status today | Text here |
 |---|---|---|---|---|---|
-| **Gospel of Mary** | 2nd c. | Greek P.Ryl. 463 and P.Oxy. 3525 (3rd c.); Coptic Berlin Codex 8502 (5th c.) | Not mentioned in any ancient list | **Non-canonical (unlisted)** | [gospel-of-mary.md](../gospels/gospel-of-mary.md); [GG 02](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/02-Gospel-of-Mary.pdf) (both Mattison) |
-| **Gospel of Judas** | c. 130–170 | Codex Tchacos 3 (Coptic, radiocarbon c. 280 ± 60) | Iren. 1.31.1 names it as used by the "Cainites" | **Rejected** | [gospel-of-judas.md](../gospels/gospel-of-judas.md); [GG 06](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/06-Gospel-of-Judas.pdf) (both Mattison) |
-| **Gospel of Philip** | 2nd–3rd c. | Nag Hammadi Codex II,3 (c. 350) | Epiphanius quotes a "Gospel of Philip" (possibly a different work) | **Non-canonical (unlisted)** | [gospel-of-philip.md](../gospels/gospel-of-philip.md) (Mattison); [GG 05](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/05-Gospel-of-Philip.pdf) (Isenberg) |
-| **Gospel of Truth** | c. 140–180 (Valentinian) | Nag Hammadi Codices I,3 and XII,2 | Iren. 3.11.9 says the Valentinians had a "Gospel of Truth" | **Rejected** | [gospel-of-truth.md](../gospels/gospel-of-truth.md) (Mattison); [GG 03](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/03-Gospel-of-Truth.pdf) (Attridge & MacRae) |
-| **Secret Book (Apocryphon) of James** | 2nd c. | Nag Hammadi Codex I,2 | Not mentioned in any ancient list | **Non-canonical (unlisted)** | [secret-book-of-james.md](../gospels/secret-book-of-james.md) |
-| **The Stranger's Book** (Allogenes, CT 4) | 2nd–3rd c. | Codex Tchacos 4 | Not mentioned in any ancient list | **Non-canonical (unlisted)** | [strangers-book.md](../gospels/strangers-book.md) |
-| **Pistis Sophia** | 3rd c. | Askew Codex (Coptic, 4th c.?) | Not mentioned in any ancient list | **Non-canonical (unlisted)** | [pistis-sophia-horner-1924.txt](../gospels/gutenberg/pistis-sophia-horner-1924.txt) |
-| **Untitled Text of the Bruce Codex** | 3rd c. | Bruce Codex (Coptic) | Not mentioned in any ancient list | **Non-canonical (unlisted)** | [gnosis-of-the-light-lamplugh-1918.txt](../gospels/gutenberg/gnosis-of-the-light-lamplugh-1918.txt) |
-| **Hymn and vision of the cross** (Acts of John 94–102) | 2nd–3rd c. | Greek Acts of John manuscripts | Acts of John: Eus. heretical. Rejected at the Second Council of Nicaea (787) | **Rejected** | [gnostic-crucifixion-mead-1907.txt](../gospels/gutenberg/gnostic-crucifixion-mead-1907.txt) |
-| Secret Book (Apocryphon) of John | 2nd c. | Nag Hammadi Codices II,1, III,1, IV,1; Berlin Codex 8502,2 | Iren. 1.29 summarizes closely parallel teaching | **Non-canonical (unlisted)** | [GG 04](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/04-Apocryphon-of-John.pdf) (Waldstein & Wisse, long recension) |
-| Gospel of the Egyptians (Coptic; *Holy Book of the Great Invisible Spirit*) | 2nd–3rd c. (Sethian) | Nag Hammadi Codices III,2 and IV,2 | Not mentioned in any ancient list (distinct from the Greek work below) | **Non-canonical (unlisted)** | [GG 11](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/11-Gospel-of-the-Egyptians.pdf) (Böhlig & Wisse) |
-| Dialogue of the Savior | 2nd c. | Nag Hammadi Codex III,5 | Not mentioned in any ancient list | **Non-canonical (unlisted)** | [GG 10](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/10-Dialogue-of-the-Savior.pdf) (Emmel) |
+| **Gospel of Mary** | 2nd c. | Greek P.Ryl. 463 and P.Oxy. 3525 (3rd c.); Coptic Berlin Codex 8502 (5th c.) | Not mentioned in any ancient list | **Non-canonical (unlisted)** | — |
+| **Gospel of Judas** | c. 130–170 | Codex Tchacos 3 (Coptic, radiocarbon c. 280 ± 60) | Iren. 1.31.1 names it as used by the "Cainites" | **Rejected** | — |
+| **Gospel of Philip** | 2nd–3rd c. | Nag Hammadi Codex II,3 (c. 350) | Epiphanius quotes a "Gospel of Philip" (possibly a different work) | **Non-canonical (unlisted)** | — |
+| **Gospel of Truth** | c. 140–180 (Valentinian) | Nag Hammadi Codices I,3 and XII,2 | Iren. 3.11.9 says the Valentinians had a "Gospel of Truth" | **Rejected** | — |
+| **Secret Book (Apocryphon) of James** | 2nd c. | Nag Hammadi Codex I,2 | Not mentioned in any ancient list | **Non-canonical (unlisted)** | — |
+| **The Stranger's Book** (Allogenes, CT 4) | 2nd–3rd c. | Codex Tchacos 4 | Not mentioned in any ancient list | **Non-canonical (unlisted)** | — |
+| **Pistis Sophia** | 3rd c. | Askew Codex (Coptic, 4th c.?) | Not mentioned in any ancient list | **Non-canonical (unlisted)** | — |
+| **Untitled Text of the Bruce Codex** | 3rd c. | Bruce Codex (Coptic) | Not mentioned in any ancient list | **Non-canonical (unlisted)** | — |
+| **Hymn and vision of the cross** (Acts of John 94–102) | 2nd–3rd c. | Greek Acts of John manuscripts | Acts of John: Eus. heretical. Rejected at the Second Council of Nicaea (787) | **Rejected** | — |
+| Secret Book (Apocryphon) of John | 2nd c. | Nag Hammadi Codices II,1, III,1, IV,1; Berlin Codex 8502,2 | Iren. 1.29 summarizes closely parallel teaching | **Non-canonical (unlisted)** | — |
+| Gospel of the Egyptians (Coptic; *Holy Book of the Great Invisible Spirit*) | 2nd–3rd c. (Sethian) | Nag Hammadi Codices III,2 and IV,2 | Not mentioned in any ancient list (distinct from the Greek work below) | **Non-canonical (unlisted)** | — |
+| Dialogue of the Savior | 2nd c. | Nag Hammadi Codex III,5 | Not mentioned in any ancient list | **Non-canonical (unlisted)** | — |
 | Books of Jeu | 3rd c. | Bruce Codex | Not mentioned in any ancient list | **Non-canonical (unlisted)** | — |
 | Gospel of Eve | 2nd–4th c. | Lost; quoted by Epiphanius (*Panarion* 26) | Rejected as heretical | **Rejected** | — |
 | Gospel of Basilides | 2nd c. | Lost | Orig. rejects | **Rejected** | — |
 | Gospel of Matthias / Traditions of Matthias | 2nd c. | Lost; quoted by Clement of Alexandria | Orig. and Eus. heretical. Gel. rejects | **Rejected** | — |
 | Living Gospel of Mani | 3rd c. | Fragments (e.g. Cologne Mani Codex) | Scripture of Manichaeism | **Canonical (non-Christian canon)**: Manichaean | — |
-| *Hypostasis of the Archons* (not a gospel) | 3rd c. | Nag Hammadi Codex II,4 | Not mentioned in any ancient list | **Non-canonical (unlisted)** | [GG 07](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/07-Hypostasis-of-the-Archons.pdf) (Layton) |
-| *On the Origin of the World* (not a gospel) | 3rd–4th c. | Nag Hammadi Codices II,5 and XIII,2 | Not mentioned in any ancient list | **Non-canonical (unlisted)** | [GG 08](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/08-On-the-Origin-of-the-World.pdf) (Bethge & Layton) |
-| *Thunder, Perfect Mind* (revelation poem, not a gospel) | 2nd–3rd c. | Nag Hammadi Codex VI,2 | Not mentioned in any ancient list | **Non-canonical (unlisted)** | [GG 09](https://github.com/0xSero/gnostic-gospels/blob/main/pdfs/09-Thunder-Perfect-Mind.pdf) (MacRae) |
 
 ## 5. Jewish-Christian gospels
 
@@ -111,7 +106,7 @@ These are separate from the Coptic Sethian *Gospel of the Egyptians* in section 
 | **Egerton Gospel** (Unknown Gospel) | 2nd c. | P.Egerton 2 and P.Köln 255 (copy c. 150–200) | Not mentioned in any ancient list | **Non-canonical (unlisted)** | [egerton-gospel.md](../gospels/egerton-gospel.md) |
 | **Gospel of Nicodemus** (Acts of Pilate and Descent into Hell) | 4th–5th c. in its current form | Greek, Latin, Coptic, Syriac, Armenian | Very widely read in the medieval West. Source of the Harrowing of Hell tradition | **Non-canonical, liturgically influential** | [ANF 8](../gospels/apocryphal-gospels-anf08-walker-1870.txt); [Hone](../gospels/gutenberg/apocryphal-new-testament-hone-1820.txt) |
 | **Pilate cycle** (Letter and Report of Pilate, Giving Up of Pilate, Death of Pilate, Narrative of Joseph of Arimathaea, Avenging of the Saviour) | 4th–8th c. | Greek and Latin | Never canonical. The Ethiopian church venerates Pilate and his wife Procla as saints; Eastern Orthodoxy venerates Procla | **Non-canonical** | [ANF 8](../gospels/apocryphal-gospels-anf08-walker-1870.txt) |
-| **Secret Gospel of Mark** | Disputed | Known only from a letter attributed to Clement of Alexandria, which Morton Smith reported finding at Mar Saba in 1958. Only photographs survive | Unknown in antiquity | **Disputed authenticity**: some scholars regard it as a modern forgery | [secret-gospel-of-mark.md](../gospels/secret-gospel-of-mark.md) |
+| **Secret Gospel of Mark** | Disputed | Known only from a letter attributed to Clement of Alexandria, which Morton Smith reported finding at Mar Saba in 1958. Only photographs survive | Unknown in antiquity | **Disputed authenticity**: some scholars regard it as a modern forgery | — |
 | Gospel of Marcion | c. 140 | Lost; reconstructed from Tertullian and Epiphanius | The sole gospel of Marcion's church. Rejected by Irenaeus, Tertullian, and others | **Canonical (historical/local)**: Marcionite church only. **Rejected** by proto-orthodox writers | — |
 | Gospel of Bartholomew / Questions of Bartholomew | 3rd–6th c. | Greek, Latin, Slavonic, Coptic | Gel. rejects "Gospels in the name of Bartholomew" | **Rejected** | — |
 | Gospel of the Savior (Unknown Berlin Gospel) | 2nd–3rd c. | P.Berol. 22220 (Coptic) | Not mentioned in any ancient list | **Non-canonical (unlisted)** | — |
@@ -123,7 +118,7 @@ These are separate from the Coptic Sethian *Gospel of the Egyptians* in section 
 | Gospel | Composed | Witnesses | Ancient verdict | Status today | Text here |
 |---|---|---|---|---|---|
 | **Infancy Gospel of James** (Protevangelium) | c. 150 | Papyrus Bodmer V (3rd–4th c.); more than 140 Greek manuscripts | Gel. rejects the "Gospel of James the Younger". Source of the names Joachim and Anne and of the feast of the Presentation of Mary | **Non-canonical, liturgically influential** (Orthodox and Catholic) | [Mattison](../gospels/infancy-gospel-of-james.md); [ANF 8](../gospels/apocryphal-gospels-anf08-walker-1870.txt); [Hone](../gospels/gutenberg/apocryphal-new-testament-hone-1820.txt) |
-| **Infancy Gospel of Thomas** | 2nd c. | Earliest complete Greek manuscript: Hagios Saba 259 (11th c.); older Syriac and Latin versions | Iren. 1.20.1 cites a story from it as used by the Marcosians. Gel. rejects a book "of the infancy of the Saviour" | **Rejected** | [Mattison](../gospels/infancy-gospel-of-thomas.md); [ANF 8](../gospels/apocryphal-gospels-anf08-walker-1870.txt); [Hone](../gospels/gutenberg/apocryphal-new-testament-hone-1820.txt) |
+| **Infancy Gospel of Thomas** | 2nd c. | Earliest complete Greek manuscript: Hagios Saba 259 (11th c.); older Syriac and Latin versions | Iren. 1.20.1 cites a story from it as used by the Marcosians. Gel. rejects a book "of the infancy of the Saviour" | **Rejected** | — |
 | **Gospel of Pseudo-Matthew** | 7th c. (Latin) | Latin manuscripts | Shaped medieval Western art (e.g. the ox and ass at the manger) | **Non-canonical, liturgically influential** | [ANF 8](../gospels/apocryphal-gospels-anf08-walker-1870.txt) |
 | **Gospel of the Nativity of Mary** | 9th c. (Latin) | Latin manuscripts | Never canonical | **Non-canonical** | [ANF 8](../gospels/apocryphal-gospels-anf08-walker-1870.txt); [Hone](../gospels/gutenberg/apocryphal-new-testament-hone-1820.txt) |
 | **Arabic Infancy Gospel** | 5th–6th c. (Syriac origin) | Arabic and Syriac | Never canonical | **Non-canonical** | [ANF 8](../gospels/apocryphal-gospels-anf08-walker-1870.txt); [Hone](../gospels/gutenberg/apocryphal-new-testament-hone-1820.txt) |

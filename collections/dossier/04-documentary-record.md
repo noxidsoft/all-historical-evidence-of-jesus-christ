@@ -518,7 +518,7 @@ made from clay, extraordinary knowledge, alarming curses, restorations, and help
 Joseph's carpentry. Different versions soften, expand, or reorder the stories. Its early forms
 belong to the second-century development of childhood traditions, but manuscripts are
 later and varied. It shows how communities imagined divine power in a child; it does not fill
-the missing years with independently verified incidents. [R44]
+the missing years with independently verified incidents.
 
 Marcion's Gospel. Around the middle of the second century, Marcion's communities used
 a Gospel closely related to Luke and a collection of Pauline letters. No complete
@@ -682,7 +682,7 @@ concerns the letter's authenticity, its relation to Clement and Mark, and the po
 modern fabrication. The material is known from photographs, while the physical pages are
 unavailable for the necessary range of direct tests. Neither ancient authenticity nor forgery
 has been universally demonstrated. Sensational claims about Jesus's sexuality exceed what
-this disputed and fragmentary evidence can establish. [R65]
+this disputed and fragmentary evidence can establish.
 
 Gospel of Barnabas. The work commonly circulated under this title is generally placed
 around the sixteenth century in current specialist discussion, with a proposed Morisco

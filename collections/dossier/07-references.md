@@ -1173,13 +1173,6 @@ Second-century infancy work, Mary’s parents/upbringing, Joseph, birth and virg
 
 Open source: www.nasscal.com
 
-[R44] Tony Burke, NASSCAL e-Clavis, “Infancy Gospel of Thomas”
-Resource type: specialist academic catalogue
-
-Childhood wonders, variant forms, ages five through twelve; distinct from sayings Thomas.
-
-Open source: www.nasscal.com
-
 [R45] Mark G. Bilby and Markus Vinzent, NASSCAL e-Clavis, “Gospel of Marcion”
 Resource type: specialist academic catalogue; authors favor a contested reconstruction
 
@@ -1319,13 +1312,6 @@ Open source: www.newadvent.org
 Resource type: specialist academic catalogue
 
 Latin Mary and infancy adaptation, Egypt journey, animals, palm and idols.
-
-Open source: www.nasscal.com
-
-[R65] Michael J. Kok, NASSCAL e-Clavis, “Secret Gospel of Mark”
-Resource type: specialist academic catalogue
-
-Smith’s 1958 find, attributed Clement letter, manuscript circumstances and authenticity debate.
 
 Open source: www.nasscal.com
 

@@ -6,7 +6,7 @@ This repository holds three things:
 2. **The sources it cites** — every ancient text the dossier quotes, mirrored in a public-domain translation where one exists, with the exact destination of every reference link taken from the PDF itself.
 3. **A readable, searchable site** — [docs/index.html](docs/index.html), which turns the collections into a searchable archive with a reading pane, reference cards, and cross-links between the dossier's passages and the documents behind them.
 
-**Read it:** <https://0xsero.github.io/all-historical-evidence-of-jesus-christ/>
+**Read it:** <https://noxidsoft.github.io/all-historical-evidence-of-jesus-christ/>
 
 Every page carries two ways to reach every other source: hover any source link for a preview card (title, collection, excerpt, word count), and press `s` or click **All sources** in the top bar for the full list of all 335 documents, filterable, with arrow-key navigation. Deep links are hash routes, so they survive reloads; a `404.html` rewrites path-style links such as `/doc/fathers/didache` to the right page.
 
@@ -21,26 +21,28 @@ python3 -m http.server -d docs 8123   # then open http://127.0.0.1:8123/
 <!-- collections:start -->
 | Collection | Documents | What it holds |
 |---|---|---|
-| [dossier](collections/dossier/) | 7 | The PDF's own text, sectioned, plus the 238-entry reference register |
+| [dossier](collections/dossier/) | 7 | The PDF's own text, sectioned, plus the 236-entry reference register |
 | [scripture](collections/scripture/) | 31 | New Testament, World English Bible, one file per book |
-| [gospels](collections/gospels/) | 20 | Thomas, Philip, Truth, Mary, Judas, Peter, Egerton, the infancy gospels, Q, P.Oxy. 5575, Nicodemus, the Diatessaron |
+| [gospels](collections/gospels/) | 8 | Peter, Egerton, the Infancy Gospel of James, Q, P.Oxy. 5575, Nicodemus, the Diatessaron |
 | [fathers](collections/fathers/) | 14 | Didache, Clement, Ignatius, Papias, Justin, Irenaeus, Eusebius, Origen, Hippolytus, Athanasius |
 | [witnesses](collections/witnesses/) | 8 | Josephus, Tacitus, Suetonius, Lucian, Mara bar Serapion, the Talmud, Thallus and Phlegon |
 | [legal](collections/legal/) | 3 | Pliny and Trajan, Hadrian's rescript, the 1994 Common Christological Declaration |
 | [archaeology](collections/archaeology/) | 9 | Pilate inscription, both ossuaries, Dura-Europos, Megiddo, the Frankfurt amulet, Nazareth inscription, Isaiah scroll, the shroud |
 | [denominational](collections/denominational/) | 4 | Nostra aetate, Dilexit nos, the 2024 norms on alleged supernatural phenomena |
 | [registry](collections/registry/) | 1 | Fifty-two gospels and gospel-type texts with dates, manuscripts, ancient verdicts, and canonical status in each tradition. |
-| [citations](collections/citations/) | 238 | One page per register entry: the citation, what it supports, and where it is cited |
-| [references](collections/references/) | 238 | `refs.json` (exact link destinations from the PDF), `links.json` (mirrored entries), `links-report.md` (the verified match for each) |
+| [citations](collections/citations/) | 236 | One page per register entry: the citation, what it supports, and where it is cited |
+| [references](collections/references/) | 236 | `refs.json` (exact link destinations from the PDF), `links.json` (mirrored entries), `links-report.md` (the verified match for each) |
 <!-- collections:end -->
+
+**Exclusions.** Gnostic texts and references are excluded from this archive: the Nag Hammadi and related gnostic works, the Infancy Gospel of Thomas and the Secret Gospel of Mark, along with their citation cards (R44, R65) and the links to the external gnostic-gospels collection. The gospel registry still lists their status, but with no text here.
 
 Also: [the gospel registry](collections/registry/gospel-registry.md), a register of 52 gospels and gospel-type texts with dates, manuscripts, ancient verdicts, and canonical status by tradition.
 
 ## How the reference layer works
 
-The dossier prints a source for each of its 238 entries. Its PDF also carries a live hyperlink for 233 of them, often to a specific passage (Perseus *Republic* 2.362a, New Advent *Against Heresies* I.24, Josephus XVIII, the Yale Dura-Europos record). `tools/make_references.py` reads those link annotations out of the PDF and attaches each one to the reference whose position on the page it belongs to, so the archive carries the exact destination rather than a guessed hostname.
+The dossier prints a source for each of its 238 entries; 236 are carried here (see the exclusion note above). Its PDF also carries a live hyperlink for 231 of those, often to a specific passage (Perseus *Republic* 2.362a, New Advent *Against Heresies* I.24, Josephus XVIII, the Yale Dura-Europos record). `tools/make_references.py` reads those link annotations out of the PDF and attaches each one to the reference whose position on the page it belongs to, so the archive carries the exact destination rather than a guessed hostname.
 
-The remaining five were resolved by hand and checked with an HTTP request at build time (`tools/resolve_missing.py`). All 238 entries therefore have a URL.
+The remaining five were resolved by hand and checked with an HTTP request at build time (`tools/resolve_missing.py`). All 236 entries therefore have a URL.
 
 A reference is linked to a mirrored document only when two things hold: the citation names the work, **and** the document actually contains the cited locator. `collections/references/links-report.md` records each match and the marker that confirmed it. 89 entries are mirrored; the rest link out.
 
@@ -56,7 +58,7 @@ Everything derived is reproducible:
 |---|---|
 | `tools/fetch_source.py` | Fetch a URL to normalized Markdown plus a metadata sidecar |
 | `tools/ccel_section.py` | Extract one work from a CCEL volume text (caches volumes under `.cache/`) |
-| `tools/make_references.py` | PDF → 238 reference entries with their exact link destinations |
+| `tools/make_references.py` | PDF → 236 reference entries with their exact link destinations |
 | `tools/resolve_missing.py` | Pins the five entries that carry no embedded link, after an HTTP check |
 | `tools/make_dossier.py` | PDF → sectioned Markdown, headings restored from the table of contents |
 | `tools/make_cards.py` | One page per reference entry |

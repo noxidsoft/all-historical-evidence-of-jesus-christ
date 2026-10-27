@@ -122,6 +122,17 @@ def strip_part_header(body: str, title: str) -> str:
     return "\n".join(out)
 
 
+# References dropped from this archive (see make_references.EXCLUDED).
+EXCLUDED = ("R44", "R65")
+
+
+def drop_excluded(text: str) -> str:
+    for rid in EXCLUDED:
+        text = re.sub(r"(?ms)^\[%s\] .*?(?=^\[[A-Z]\d+\] |\Z)" % rid, "", text)
+        text = re.sub(r" ?\[%s\]" % rid, "", text)
+    return text
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--pdf", default="Jesus_Christ_Research_Dossier.pdf")
@@ -193,6 +204,8 @@ def main() -> int:
         body = re.sub(r"(?m)^(\d{1,3})\. ([A-Z][^.\n]{2,90}\.)", r"**\1. \2**", body)
         body = re.sub(r"(?m)^([A-Z]{1,2}\d{2})\. ", r"**\1. **", body)
         body = re.sub(r"\n{3,}", "\n\n", body)
+        body = drop_excluded(body)
+        refs_split = drop_excluded(refs_split)
         path = outdir / f"{slug}.md"
         path.write_text(
             f"<!-- Converted from {Path(args.pdf).name}, pages {start + 1}-{end}. -->\n\n" + body.strip() + "\n",

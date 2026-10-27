@@ -870,27 +870,6 @@
   "doc": null
  },
  {
-  "id": "R44",
-  "section": "ancient",
-  "section_title": "Ancient records and religious movements",
-  "citation": "Tony Burke, NASSCAL e-Clavis, “Infancy Gospel of Thomas” Childhood wonders, variant forms, ages five through twelve; distinct from sayings Thomas.",
-  "note": "",
-  "resource_type": "specialist academic catalogue",
-  "domains": [
-   "www.nasscal.com"
-  ],
-  "urls": [
-   "https://www.nasscal.com/e-clavis-christian-apocrypha/infancy-gospel-of-thomas/"
-  ],
-  "url": "https://www.nasscal.com/e-clavis-christian-apocrypha/infancy-gospel-of-thomas/",
-  "pdf_page": 116,
-  "cited_in": {
-   "04-documentary-record": 1,
-   "07-references": 1
-  },
-  "doc": null
- },
- {
   "id": "R45",
   "section": "ancient",
   "section_title": "Ancient records and religious movements",
@@ -1301,27 +1280,6 @@
    "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-pseudo-matthew/"
   ],
   "url": "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-pseudo-matthew/",
-  "pdf_page": 118,
-  "cited_in": {
-   "04-documentary-record": 1,
-   "07-references": 1
-  },
-  "doc": null
- },
- {
-  "id": "R65",
-  "section": "ancient",
-  "section_title": "Ancient records and religious movements",
-  "citation": "Michael J. Kok, NASSCAL e-Clavis, “Secret Gospel of Mark”",
-  "note": "Smith’s 1958 find, attributed Clement letter, manuscript circumstances and authenticity debate.",
-  "resource_type": "specialist academic catalogue",
-  "domains": [
-   "www.nasscal.com"
-  ],
-  "urls": [
-   "https://www.nasscal.com/e-clavis-christian-apocrypha/secret-gospel-of-mark/"
-  ],
-  "url": "https://www.nasscal.com/e-clavis-christian-apocrypha/secret-gospel-of-mark/",
   "pdf_page": 118,
   "cited_in": {
    "04-documentary-record": 1,

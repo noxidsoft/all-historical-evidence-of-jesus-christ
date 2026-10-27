@@ -133,6 +133,11 @@ def citations(refs: dict) -> dict:
     return cited
 
 
+# Gnostic-source references dropped from this archive (NASSCAL pages on the
+# Infancy Gospel of Thomas and the Secret Gospel of Mark).
+EXCLUDED = {"R44", "R65"}
+
+
 def main() -> int:
     pdf = Path("Jesus_Christ_Research_Dossier.pdf")
     raw = parse_entries(register_lines(pdf))
@@ -141,6 +146,8 @@ def main() -> int:
 
     out = []
     for rid, r in raw.items():
+        if rid in EXCLUDED:
+            continue
         lines_ = [l for l in r["lines"] if l]
         rt = ""
         for l in lines_:

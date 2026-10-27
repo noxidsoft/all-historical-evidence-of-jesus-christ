@@ -24,17 +24,10 @@ the same work, and the marker that was found in that document to confirm the mat
 | R31 | Julius Africanus, Extant Works Indirect Thallus and Phlegon transmission; eclipse and Passover argument. | witnesses/thallus-phlegon-fragments | africanus |
 | R32 | N. P. L. Allen, “Thallus and Phlegon: Solar Eclipse in Jerusalem c. 33 CE?”, Akroterion 63 (2018), 73-93 | witnesses/thallus-phlegon-fragments | africanus |
 | R33 | Steinsaltz Center, “Sanhedrin 43a-b: An Announcement Before Execution” | witnesses/talmud-sanhedrin-43a | sanhedrin |
-| R36 | Christopher W. Skinner, NASSCAL e-Clavis, “Gospel of Thomas” 114 sayings; Greek and Coptic witnesses; dating a | gospels/gospel-of-thomas | thomas |
 | R37 | Lorne R. Zelyck, NASSCAL e-Clavis, “Egerton Gospel” Fragmentary episodes, manuscript evidence, Johannine/Synop | gospels/egerton-gospel | egerton |
 | R38 | Tony Burke, NASSCAL e-Clavis, “Papyrus Oxyrhynchus 5575” 2023 publication; second-century paleographic proposa | gospels/sayings-of-jesus-p-oxy-5575 | recto |
 | R42 | Mark G. Bilby, NASSCAL e-Clavis, “Gospel of Peter” | gospels/gospel-of-peter | peter |
 | R43 | Eric M. Vanden Eykel, NASSCAL e-Clavis, “Protevangelium of James” | gospels/infancy-gospel-of-james | james |
-| R44 | Tony Burke, NASSCAL e-Clavis, “Infancy Gospel of Thomas” Childhood wonders, variant forms, ages five through t | gospels/gospel-of-thomas | thomas |
-| R46 | Judith Hartenstein, NASSCAL e-Clavis, “Gospel of Mary” Incomplete Berlin codex and Greek fragments; revelation | gospels/gospel-of-mary | mary |
-| R47 | David Brakke, NASSCAL e-Clavis, “Gospel of Judas” | gospels/gospel-of-judas | judas |
-| R48 | Emily Lafleche, NASSCAL e-Clavis, “Gospel of Philip” Valentinian sacramental collection, dating, manuscript, M | gospels/gospel-of-philip | philip |
-| R49 | Gospel of Truth, translation by Harold W. Attridge and George W. MacRae | gospels/gospel-of-truth | truth |
-| R53 | Julia D. Lindenlaub, NASSCAL e-Clavis, “Apocryphon of James” | gospels/secret-book-of-james | james |
 | R84 | Common Christological Declaration between the Catholic Church and the Assyrian Church of the East, 11 November | legal/common-christological-declaration-1994 | assyrian |
 | R90 | Qur’an 4:157-158 Qur’anic denial of opponents killing/crucifying Jesus and affirmation that God raised him. | scripture/quran/surah-04 | women |
 | R91 | Qur’an 19:16-36 Mary, extraordinary conception/birth, infant speech, Jesus’s prophetic status. | scripture/quran/surah-19 | mary |

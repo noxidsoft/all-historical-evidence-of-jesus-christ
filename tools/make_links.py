@@ -54,18 +54,11 @@ RULES: list[tuple[str, str, str]] = [
     (r"thallus|phlegon|julius africanus", "witnesses/thallus-phlegon-fragments", "africanus"),
     (r"hadrian", "legal/hadrian-rescript-minucius-fundanus", "adrian"),
     # Gospels and apocrypha
-    (r"gospel of thomas", "gospels/gospel-of-thomas", "thomas"),
-    (r"gospel of mary", "gospels/gospel-of-mary", "mary"),
-    (r"gospel of philip", "gospels/gospel-of-philip", "philip"),
-    (r"gospel of truth", "gospels/gospel-of-truth", "truth"),
-    (r"gospel of judas", "gospels/gospel-of-judas", "judas"),
     (r"gospel of peter", "gospels/gospel-of-peter", "peter"),
     (r"egerton", "gospels/egerton-gospel", "egerton"),
     (r"protevangelium|infancy gospel of james|infancy james", "gospels/infancy-gospel-of-james", "james"),
-    (r"infancy gospel of thomas|infancy thomas", "gospels/infancy-gospel-of-thomas", "thomas"),
     (r"nicodemus|acts of pilate", "gospels/apocryphal-gospels-anf08-walker-1870", "nicodemus"),
     (r"diatessaron", "gospels/diatessaron-tatian-hogg-1896", "diatessaron"),
-    (r"apocryphon of james|secret book of james", "gospels/secret-book-of-james", "james"),
     (r"papyrus oxyrhynchus 5575|p\.oxy 5575", "gospels/sayings-of-jesus-p-oxy-5575", "recto"),
     # Archaeology pages written for this archive
     (r"pilate inscription|latin dedicatory inscription.*pilate", "archaeology/pilate-inscription", "pilate"),

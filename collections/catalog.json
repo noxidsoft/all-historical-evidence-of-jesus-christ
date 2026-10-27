@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26",
+ "generated": "2026-10-27",
  "collections": [
   {
    "id": "dossier",
@@ -17,7 +17,7 @@
    "id": "gospels",
    "title": "Gospels outside the canon",
    "blurb": "Gnostic, infancy, passion, and sayings gospels, plus the Gospel of Nicodemus and Tatian's Diatessaron.",
-   "docs": 20
+   "docs": 8
   },
   {
    "id": "fathers",
@@ -59,7 +59,7 @@
    "id": "citations",
    "title": "Reference cards",
    "blurb": "One page per numbered entry in the dossier's register: what the source is, what the dossier says it supports, and where it is cited.",
-   "docs": 238
+   "docs": 236
   }
  ],
  "docs": [
@@ -122,8 +122,8 @@
    "source_url": "",
    "license": "Original research dossier in this repository.",
    "fetched": "2026-10-26",
-   "words": 8969,
-   "chars": 68188,
+   "words": 8967,
+   "chars": 68176,
    "excerpt": "The evidence has several different chronologies. Jesus's lifetime belongs approximately to the final years before the Common Era and the first third of the first century CE. The surviving writings were composed later; the physical copies we possess are usually later again; their modern rediscovery h",
    "refs": []
   },
@@ -170,8 +170,8 @@
    "source_url": "",
    "license": "Original research dossier in this repository.",
    "fetched": "2026-10-26",
-   "words": 6907,
-   "chars": 54861,
+   "words": 6849,
+   "chars": 54394,
    "excerpt": "This register contains 238 reference entries. Some entries point to the same source because different catalogue sections use it for different questions. Biblical chapter-and-verse citations in the text are additional primary references. Linked scholarly articles, editions, museum records, institutio",
    "refs": []
   },
@@ -749,42 +749,6 @@
    ]
   },
   {
-   "id": "gospels/gospel-of-judas",
-   "title": "The Gospel of Judas",
-   "collection": "gospels",
-   "path": "gospels/gospel-of-judas.md",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 3841,
-   "chars": 22391,
-   "excerpt": "The following translation has been committed to the public domain and may be freely copied and used, changed or unchanged, for any purpose. It is based on the Coptic text of Codex Tchacos 3. For information about the surviving manuscript of the Gospel of Judas, see the [Manuscript Information](https",
-   "refs": [
-    "R47"
-   ]
-  },
-  {
-   "id": "gospels/gospel-of-mary",
-   "title": "The Gospel of Mary",
-   "collection": "gospels",
-   "path": "gospels/gospel-of-mary.md",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 1317,
-   "chars": 7591,
-   "excerpt": "The following translation has been committed to the public domain and may be freely copied and used, changed or unchanged, for any purpose. It is based on the Coptic text of Papyrus Berolinensis 8502, 1. For information about the surviving manuscripts of the Gospel of Mary, see the [Manuscript Infor",
-   "refs": [
-    "R46"
-   ]
-  },
-  {
    "id": "gospels/gospel-of-peter",
    "title": "The Gospel of Peter",
    "collection": "gospels",
@@ -800,61 +764,6 @@
    "excerpt": "The following translation has been committed to the public domain and may be freely copied and used, changed or unchanged, for any purpose. It is based on the Greek text of the Akhmim fragment. For information about the surviving manuscripts of the Gospel of Peter, see the [Manuscript Information](h",
    "refs": [
     "R42"
-   ]
-  },
-  {
-   "id": "gospels/gospel-of-philip",
-   "title": "The Gospel of Philip",
-   "collection": "gospels",
-   "path": "gospels/gospel-of-philip.md",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 8978,
-   "chars": 49936,
-   "excerpt": "The following translation has been committed to the public domain and may be freely copied and used, changed or unchanged, for any purpose. It is based on the Coptic text of Nag Hammadi Codex II, 3. For information about the surviving manuscript of the Gospel of Philip, see the [Manuscript Informati",
-   "refs": [
-    "R48"
-   ]
-  },
-  {
-   "id": "gospels/gospel-of-thomas",
-   "title": "The Gospel of Thomas",
-   "collection": "gospels",
-   "path": "gospels/gospel-of-thomas.md",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 5789,
-   "chars": 32895,
-   "excerpt": "The following translation has been committed to the public domain and may be freely copied and used, changed or unchanged, for any purpose. It is based on the Coptic text of Nag Hammadi Codex II, 2. For information about the surviving manuscripts of the Gospel of Thomas, see the [Manuscript Informat",
-   "refs": [
-    "R36",
-    "R44"
-   ]
-  },
-  {
-   "id": "gospels/gospel-of-truth",
-   "title": "The Gospel of Truth",
-   "collection": "gospels",
-   "path": "gospels/gospel-of-truth.md",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 5800,
-   "chars": 32976,
-   "excerpt": "The following translation has been committed to the public domain and may be freely copied and used, changed or unchanged, for any purpose. It is based on the Coptic text of Nag Hammadi Codex I, 3. For information about the surviving manuscripts of the Gospel of Truth, see the [Manuscript Informatio",
-   "refs": [
-    "R49"
    ]
   },
   {
@@ -874,22 +783,6 @@
    "refs": [
     "R43"
    ]
-  },
-  {
-   "id": "gospels/infancy-gospel-of-thomas",
-   "title": "The Infancy Gospel of Thomas",
-   "collection": "gospels",
-   "path": "gospels/infancy-gospel-of-thomas.md",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 3556,
-   "chars": 20067,
-   "excerpt": "The following translation has been committed to the public domain and may be freely copied and used, changed or unchanged, for any purpose. It is based on the earliest complete Greek manuscript, Hagios Saba 259. For more information about Hagios Saba 259, see the [Manuscript Information](https://www",
-   "refs": []
   },
   {
    "id": "gospels/q-sayings-source",
@@ -924,56 +817,6 @@
    "refs": [
     "R38"
    ]
-  },
-  {
-   "id": "gospels/secret-book-of-james",
-   "title": "The Secret Book of James",
-   "collection": "gospels",
-   "path": "gospels/secret-book-of-james.md",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 3637,
-   "chars": 20027,
-   "excerpt": "The following translation has been committed to the public domain and may be freely copied and used, changed or unchanged, for any purpose. It is based on the Coptic text of Nag Hammadi Codex I, 2. For information about the surviving manuscript of The Secret Book of James, see the [Manuscript Inform",
-   "refs": [
-    "R53"
-   ]
-  },
-  {
-   "id": "gospels/secret-gospel-of-mark",
-   "title": "The Secret Gospel of Mark",
-   "collection": "gospels",
-   "path": "gospels/secret-gospel-of-mark.md",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 1115,
-   "chars": 6791,
-   "excerpt": "The following translation has been committed to the public domain and may be freely copied and used, changed or unchanged, for any purpose.",
-   "refs": []
-  },
-  {
-   "id": "gospels/strangers-book",
-   "title": "The Stranger’s Book",
-   "collection": "gospels",
-   "path": "gospels/strangers-book.md",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 966,
-   "chars": 5486,
-   "excerpt": "The following translation has been committed to the public domain and may be freely copied and used, changed or unchanged, for any purpose. It is based on the Coptic text of Codex Tchacos 4. For information about the surviving manuscript of the Stranger’s Book, see the [Manuscript Information](https",
-   "refs": []
   },
   {
    "id": "gospels/apocryphal-gospels-anf08-walker-1870",
@@ -1021,54 +864,6 @@
    "words": 134399,
    "chars": 729862,
    "excerpt": "The Project Gutenberg eBook of The suppressed Gospels and Epistles of the original New Testament of Jesus the Christ, Complete",
-   "refs": []
-  },
-  {
-   "id": "gospels/gutenberg/gnosis-of-the-light-lamplugh-1918",
-   "title": "Gnosis Of The Light Lamplugh 1918",
-   "collection": "gospels",
-   "path": "gospels/gutenberg/gnosis-of-the-light-lamplugh-1918.txt",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 24270,
-   "chars": 140764,
-   "excerpt": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.o",
-   "refs": []
-  },
-  {
-   "id": "gospels/gutenberg/gnostic-crucifixion-mead-1907",
-   "title": "Gnostic Crucifixion Mead 1907",
-   "collection": "gospels",
-   "path": "gospels/gutenberg/gnostic-crucifixion-mead-1907.txt",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 15312,
-   "chars": 88852,
-   "excerpt": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.o",
-   "refs": []
-  },
-  {
-   "id": "gospels/gutenberg/pistis-sophia-horner-1924",
-   "title": "Pistis Sophia Horner 1924",
-   "collection": "gospels",
-   "path": "gospels/gutenberg/pistis-sophia-horner-1924.txt",
-   "kind": "primary",
-   "bucket": "",
-   "source_name": "",
-   "source_url": "",
-   "license": "",
-   "fetched": "",
-   "words": 124421,
-   "chars": 682242,
-   "excerpt": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.o",
    "refs": []
   },
   {
@@ -1760,8 +1555,8 @@
    "source_url": "",
    "license": "",
    "fetched": "",
-   "words": 2816,
-   "chars": 19832,
+   "words": 2600,
+   "chars": 16686,
    "excerpt": "This registry lists every gospel and gospel-type text about Jesus that survives in full, survives in fragments, or is known only from ancient citations. For each one it records how the text was judged in ancient canon lists and what its canonical status is in Christian traditions today. Where this r",
    "refs": []
   },
@@ -4678,22 +4473,6 @@
    "refs": []
   },
   {
-   "id": "citations/R44",
-   "title": "R44 — Tony Burke, NASSCAL e-Clavis, “Infancy Gospel of Thomas” Childhood wonders, vari",
-   "collection": "citations",
-   "path": "citations/R44.md",
-   "kind": "secondary",
-   "bucket": "witnesses",
-   "source_name": "Jesus_Christ_Research_Dossier.pdf, reference register",
-   "source_url": "https://www.nasscal.com/e-clavis-christian-apocrypha/infancy-gospel-of-thomas/",
-   "license": "Generated card; citation text from the dossier.",
-   "fetched": "",
-   "words": 79,
-   "chars": 642,
-   "excerpt": "",
-   "refs": []
-  },
-  {
    "id": "citations/R45",
    "title": "R45 — Mark G. Bilby and Markus Vinzent, NASSCAL e-Clavis, “Gospel of Marcion”",
    "collection": "citations",
@@ -5011,22 +4790,6 @@
    "words": 78,
    "chars": 632,
    "excerpt": "",
-   "refs": []
-  },
-  {
-   "id": "citations/R65",
-   "title": "R65 — Michael J. Kok, NASSCAL e-Clavis, “Secret Gospel of Mark”",
-   "collection": "citations",
-   "path": "citations/R65.md",
-   "kind": "secondary",
-   "bucket": "witnesses",
-   "source_name": "Jesus_Christ_Research_Dossier.pdf, reference register",
-   "source_url": "https://www.nasscal.com/e-clavis-christian-apocrypha/secret-gospel-of-mark/",
-   "license": "Generated card; citation text from the dossier.",
-   "fetched": "",
-   "words": 86,
-   "chars": 714,
-   "excerpt": " Smith’s 1958 find, attributed Clement letter, manuscript circumstances and authenticity debate.",
    "refs": []
   },
   {
@@ -6296,7 +6059,7 @@
     "04-documentary-record": 2,
     "07-references": 1
    },
-   "doc": "gospels/gospel-of-thomas"
+   "doc": null
   },
   {
    "id": "R37",
@@ -6446,27 +6209,6 @@
    "doc": "gospels/infancy-gospel-of-james"
   },
   {
-   "id": "R44",
-   "section": "ancient",
-   "section_title": "Ancient records and religious movements",
-   "citation": "Tony Burke, NASSCAL e-Clavis, “Infancy Gospel of Thomas” Childhood wonders, variant forms, ages five through twelve; distinct from sayings Thomas.",
-   "note": "",
-   "resource_type": "specialist academic catalogue",
-   "domains": [
-    "www.nasscal.com"
-   ],
-   "urls": [
-    "https://www.nasscal.com/e-clavis-christian-apocrypha/infancy-gospel-of-thomas/"
-   ],
-   "url": "https://www.nasscal.com/e-clavis-christian-apocrypha/infancy-gospel-of-thomas/",
-   "pdf_page": 116,
-   "cited_in": {
-    "04-documentary-record": 1,
-    "07-references": 1
-   },
-   "doc": "gospels/gospel-of-thomas"
-  },
-  {
    "id": "R45",
    "section": "ancient",
    "section_title": "Ancient records and religious movements",
@@ -6506,7 +6248,7 @@
     "04-documentary-record": 2,
     "07-references": 1
    },
-   "doc": "gospels/gospel-of-mary"
+   "doc": null
   },
   {
    "id": "R47",
@@ -6527,7 +6269,7 @@
     "04-documentary-record": 2,
     "07-references": 1
    },
-   "doc": "gospels/gospel-of-judas"
+   "doc": null
   },
   {
    "id": "R48",
@@ -6548,7 +6290,7 @@
     "04-documentary-record": 2,
     "07-references": 1
    },
-   "doc": "gospels/gospel-of-philip"
+   "doc": null
   },
   {
    "id": "R49",
@@ -6569,7 +6311,7 @@
     "04-documentary-record": 2,
     "07-references": 1
    },
-   "doc": "gospels/gospel-of-truth"
+   "doc": null
   },
   {
    "id": "R50",
@@ -6651,7 +6393,7 @@
     "04-documentary-record": 1,
     "07-references": 1
    },
-   "doc": "gospels/secret-book-of-james"
+   "doc": null
   },
   {
    "id": "R54",
@@ -6877,27 +6619,6 @@
     "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-pseudo-matthew/"
    ],
    "url": "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-pseudo-matthew/",
-   "pdf_page": 118,
-   "cited_in": {
-    "04-documentary-record": 1,
-    "07-references": 1
-   },
-   "doc": null
-  },
-  {
-   "id": "R65",
-   "section": "ancient",
-   "section_title": "Ancient records and religious movements",
-   "citation": "Michael J. Kok, NASSCAL e-Clavis, “Secret Gospel of Mark”",
-   "note": "Smith’s 1958 find, attributed Clement letter, manuscript circumstances and authenticity debate.",
-   "resource_type": "specialist academic catalogue",
-   "domains": [
-    "www.nasscal.com"
-   ],
-   "urls": [
-    "https://www.nasscal.com/e-clavis-christian-apocrypha/secret-gospel-of-mark/"
-   ],
-   "url": "https://www.nasscal.com/e-clavis-christian-apocrypha/secret-gospel-of-mark/",
    "pdf_page": 118,
    "cited_in": {
     "04-documentary-record": 1,

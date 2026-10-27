@@ -10,9 +10,9 @@ import json, re
 from pathlib import Path
 
 BLURB = {
-    "dossier": "The PDF's own text, sectioned, plus the 238-entry reference register",
+    "dossier": "The PDF's own text, sectioned, plus the 236-entry reference register",
     "scripture": "New Testament, World English Bible, one file per book",
-    "gospels": "Thomas, Philip, Truth, Mary, Judas, Peter, Egerton, the infancy gospels, Q, P.Oxy. 5575, Nicodemus, the Diatessaron",
+    "gospels": "Peter, Egerton, the Infancy Gospel of James, Q, P.Oxy. 5575, Nicodemus, the Diatessaron",
     "fathers": "Didache, Clement, Ignatius, Papias, Justin, Irenaeus, Eusebius, Origen, Hippolytus, Athanasius",
     "witnesses": "Josephus, Tacitus, Suetonius, Lucian, Mara bar Serapion, the Talmud, Thallus and Phlegon",
     "legal": "Pliny and Trajan, Hadrian's rescript, the 1994 Common Christological Declaration",
